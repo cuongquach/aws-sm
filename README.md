@@ -9,10 +9,11 @@ You need to install at least 3 tools on your local machine:
 - [Session Manager Plugin for AWS CLI]
 - [jq on Linux] or [jq on MacOS]
 
-On your EC2 Instance needs:
+On your **AWS Service** needs:
 
-- Install SSM Agent and SSM Agent has to be active
-- Attach IAM Instance Profile with permission SSM Role
+- Install SSM Agent on EC2 Instances and SSM Agent Service has to be active
+- Attach IAM Instance Profile with permission SSM Role to EC2 Instances
+- IAM User Account used for **AWS CLI** need to have permission to access AWS System Manager - Session Manager Service.
 
 ## Installation
 
