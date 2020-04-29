@@ -111,6 +111,10 @@ if [[ "$#" -gt 2 ]];then
 fi
 
 if [[ "$#" -eq 1 ]];then
+    if [[ $1 == "help" ]];then
+        usage_help
+    fi
+
     if [[ $1 == "connect" ]];then
         echo -e "Error: are you missing args <instance_id> with command <connect> \n"
         usage_help
