@@ -5,7 +5,7 @@ aws-sm (aws + session manager) is a shell script help you to connect to EC2 Inst
 ## Prerequisites
 You need to install at least 3 tools on your local machine:
 
-- [AWS CLI version 1]
+- [AWS CLI version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 - [Session Manager Plugin for AWS CLI]
 - [jq on Linux] or [jq on MacOS]
 
