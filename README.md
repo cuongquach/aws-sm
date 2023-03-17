@@ -54,9 +54,11 @@ Examples:
 
 ## Examples
 
-List all EC2 Instances on your account with specific accounts.
+List all EC2 Instances on your account with specific accounts. Remember to setup your AWS_PROFILE and AWS_REGION in config or environment variables.
 
 ```
+$ export AWS_PROFILE="cuongquach-demo"
+$ export AWS_REGION="ap-east-1"
 $ aws-sm list
 InstanceID           Status    PrivateIP      Name
 i-00c017al34ke0a111  active    10.50.49.82    CuongQuach-Machine-1
